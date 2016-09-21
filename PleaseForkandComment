@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>This is a Title</title>
+<head>
+<center><big><h1>Welcome to HTML<h1></big>
+<br>
+<br>
+<h1>PART ONE (Basic Tags)</h1>
+<h4> Tags are set off with angle brackets ... <, and > the first tag looks like this, <p> and </p> </h4>
+</center>
+<h1>This is an H1</h1>
+<h2>This is an H2</h2>
+<h3>This is an H3</h3>
+<h4>This is an H4</h4>
+<h5>This is an H5</h5>
+<h5>This is an H6</h6>
+<p>This is a paragraph.</p>
+<p> You can use a Br tag to break lines<br> like in the example here!. <br>This is becasue your browser reads the code not spaces so <br>Br can be used to break lines off <br>at the end of the >.
+<br>
+<p> This is an example of a Strong tag.. <strong> it bolds text</strong>, and un-bolds. </p>
+<br>
+<center> <p> This is an example of a center tag </p> </center>
+<br>
+<p> We now come in contact with the UL tag as seen below </p>
+
+<ul>
+<p>List 1</p>
+<p>List 2</p>
+<p>List 3</p>
+</ul>
+
+<p> A UL tag lists items, to add a bullet point put it in an LI tag as seen below </p>
+
+<ul>
+<li> List 1 with bullet</li>
+<li> List 2 with bullet</li>
+<li> List 3 with bullet</li>
+</head>
+<body>
+<p> All of the stuff you just learned was put into a head tag, this will be displayed on the top of your page <br> All of this is now in the body tag, the mid section of your website. Notice the indent.</p>
+
+<strong> <p> Your website starts with a !doctype tag followed by a head, then body, and footer tag.<p> <br> </strong>
+
+<center><big><h1>PART TWO (More Tags and Forms)</h1></big></center>
+
+<p> I can not show you every single part of html but I am showing you the basics.. <br>
+<br>
+Lets look into other tags...<br> a B tag bolds just like a strong tag<br>
+a Big tag makes test big IE. <big> BIG </big> <br>
+a Small tag makes text small IE. <small> small </small><br>
+a S tag strikes through text IE. <s> Strike through </s><br>
+</p>
+
+<h4> Making a "Form" </h4>
+
+<p> A form tag make a "form" to start an input, This will start an area to put the input this cannot be shown so the example is "away" from the paragraph text ie. <form>Form Starts Here</form><br>
+<br>
+An A tag is a link tag, It is all the links on a page (In part 3 we I will show you how to style it.)<br>
+It looks like this without the angle brackets.. <br>
+a href="http://www.Website.com">Visit Website.com! /a <br>
+The herf is how you definen the link, the secound part is what the link will say! IE.<br>
+<a href="http://www.pandanetworks.net">Visit PandaNetworks.net!</a><br>
+<br>
+This is where it gets <b>CONFUSING</b> So pay attention...<br>
+The next step is an input tag, without the angle brackets it looks like this<br>
+input type="" name="" value=""<br>
+the type can be set to a ...	
+</p>
+<big>
+<b>
+<ul>
+<p>button</p>
+<p>checkbox</p>
+<p>color</p>
+<p>date </p>
+<p>datetime </p>
+<p>datetime-local </p>
+<p>email </p>
+<p>file</p>
+<p>hidden</p>
+<p>image</p>
+<p>month </p>
+<p>number </p>
+<p>password</p>
+<p>radio</p>
+<p>range </p>
+<p>reset</p>
+<p>search</p>
+<p>submit</p>
+<p>tel</p>
+<p>text</p>
+<p>time </p>
+<p>url</p>
+<p>week</p>
+</ul>
+</b>
+</big>
+<br>
+<p> For this I will use a TEXT it looks like this<br>
+input type="TEXT" value="" <br>
+The value is what is in the solid text in the input tag IE. <br>
+input type="TEXT" value="How to HTML"<br>
+This is what it looks like<br>
+<input type="text" value="How to HTML"><br>
+Now all we need is a submit it looks like this again without the angle brakets </p><br>
+input type="submit" value="Submit Question" IE.<br>
+<br>
+<input type="submit" value="Submit"><br>
+<p>The entire thing has to be put into the form tag, it looks like this...<br>
+</p>
+<form>
+<input type="text" value="How to HTML"><br>
+<input type="submit" value="Submit Question">
+</form> 
+<p> The last thing we are going to look at for this section is the checkbox or the radio forms..<br>
+form<br>
+  input type="radio" name="htmlSkill" value="Good" <br>
+  input type="radio" name="htmlSkill" value="Still Learning" 
+/form<br>
+It looks like this </p>
+<form>
+  <input type="radio" name="htmlSkill" value="Good"> Good <br>
+  <input type="radio" name="htmlSkill" value="Still Learning"> Still Learning
+</form>
+
+<center><big><h1>PART THREE (Basic CSS (Cascading Style Sheets))</h1></big></center>
+
+<p> Welcome to the CSS portion of my "tutorial"<br>
+CSS is used to style a website or animate using "addons" like webkit<br>
+You open the tag by calling the html tag and id here is an example<br>
+<br>
+H1 {<br>
+<br>
+}<br>
+<br>
+In between the { } lines is where you put attributes to style html tags a list can be found here<br>http://www.w3schools.com/cssreF/ <br> <br>
+
+Div {<br>
+ text-align: center;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+<br>
+}<br>
+<br>
+Make sure to end each attribute with ;<br>
+<h3>Finish this on the W3 school link!</h3.
